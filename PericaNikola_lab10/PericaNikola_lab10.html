@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+        
+    Korisničko ime:
+    <br/>
+    <input type="text" name="korisnickoIme" placeholder="Upisite korisničko ime"  id="uname" onkeyup="kime(uname)"  required/>
+    <b id='ime'></b>
+    <br/><br/>E mail:
+    <br/>
+    <input type="email" name="email" placeholder="Upišite email" id="mail" onkeyup="mailer(mail)" required/>
+    <b id='posta'></b>
+    <br/><br/>Datum rodenja:
+    <br/>
+    <input type="date" name="datumRod" placeholder="Unesite datum rodenja" required/>
+    <br/><br/>Adresa:
+    <br/>
+    <input type="text" name="adresa" placeholder="Unesite adresu" id="addr" onkeyup="address(addr)" required/>
+    <b id='addresa'></b>
+    <br/><br/>Postanski broj:
+    <br/>
+    <input type="text" name="postanskibr" placeholder="Upišite postanski broj" id="postbr" onkeyup="brojevi(postbr)" required/>
+    <span id='postabr'></span>
+    <br/><br/>Grad:
+    <br/>
+    <input type="text" name="grad" placeholder="Unesite grad" id="gradovi" onkeyup="slovaG(gradovi)" required/>
+    <span id='gradic'></span>
+    <br/><br/>Drzava:
+    <br/>
+    <input type="text" name="drzava" placeholder="Unesite drzavu" id="drzave" onkeyup="slovaD(drzave)" required/>
+    <span id='drzavica'></span>
+    <br/><br/>Telefon:
+    <br/>
+    <input type="tel" name="telefon" placeholder="Unesite broj telefona" id="tele" onkeyup="telef(tele)"required/>
+    <span id='telefoni'></span>
+    <br/><br/>Lozinka:
+    <br/>
+    <input type="password" name="lozinka" placeholder="Upišite lozinku" id="pswrd" name="pswrd" required/>
+    <br/><br/>Ponovite lozinku:
+    <br/>
+    <input type="password" name="lozinka2" placeholder="Potvrdite lozinku" id="ponovljena" name="ponovljena" onkeyup="iste()" required/>
+    <span id='lozinka'></span>
+    <br/><br/>
+    Fizicka ili pravna osoba <br/>
+    <label><input type="radio" name="osoba" value="Fizicka" required/>Fizicka</label>
+    <label><input type="radio" name="osoba" value="Pravna"/>Pravna</label>
+    <br/><br/>
+    Odaberite teme koje vas zanimaju
+    <br/>
+    <select name="teme" multiple="multiple" size=13>
+        <optgroup label="Konzole">
+            <option value="playstation">PlayStation</option>
+            <option value="xbox">Xbox</option>
+            <option value="nintendo">Nintendo</option>
+            <option value="reto">Retro konzole</option>
+            <option value="igre">Igre za konzole</option>
+        </optgroup>
+        <optgroup label="Software">
+            <option value="office">Office</option>
+            <option value="windows">Windows</option>
+            <option value="antivirus">Antivirusni programi</option>
+            <option value="ostalo">Ostali programi</option>
+        </optgroup> 
+        <optgroup label="Hardware">
+            <option value="procesori">Procesori</option>
+            <option value="memorije">Memorije</option>
+            <option value="diskovi">Diskovi HHD/SSD</option>
+            <option value="grafika">Graficke kartice</option>
+            <option value="kucista">Kucista i napajanja</option>
+            <option value="monitori">Monitori</option>
+            <option value="periferija">Periferija</option>
+            <option value="laptopi">Laptopi</option>
+        </optgroup> 
+        </select>
+    <br/><br/>
+
+    Odaberite proizvodace koji vas zanimaju
+    <br/>
+    <input type="checkbox" name="microsoft" />Microsoft<br/>
+    <input type="checkbox" name="apple" />Apple<br/>
+    <input type="checkbox" name="intel" />Intel<br/>
+    <input type="checkbox" name="amd" />AMD<br/>
+    <input type="checkbox" name="nvidia" />Nvidia<br/>
+    <input type="checkbox" name="asus" />Asus<br/>
+    <input type="checkbox" name="lenovo" />Lenovo<br/>
+    <input type="checkbox" name="dell" />Dell<br/>
+    <input type="checkbox" name="alienware" />Alienware<br/>
+    <br/>
+
+    Zelite li se pretplatiti na odabrane teme <br/>
+    <label><input type="radio" name="obavijest" value="da" required/>Da</label>
+    <label><input type="radio" name="obavijest" value="ne"/>Ne</label>
+    <br/><br/>
+    <input type="checkbox" name="uvjeti" value="licence" required/>I agree to the Terms and Conditions
+
+    <br/><br/>
+    <input type="submit" value="Registracija"/>
+    &nbsp;&nbsp;
+    <button type="reset" >Izbriši</button>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body
+{
+    font-family: 'ZCOOL XiaoWei', serif;
+   background-color: cornflowerblue;
+   color: black;
+   padding-left: 10%;
+   padding-right: 10%;
+   height: 100%;
+}
+h1{
+  padding-top: 2%;
+  font-size: 50px;
+  
+}
+.header {
+  display: block;
+  padding: 40px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  height: 90px;
+  background-image: radial-gradient(deepskyblue,cornflowerblue);
+ 
+  color: rgb(250, 229, 201);
+  
+}
+
+nav
+{
+    position: static; 
+    overflow: hidden; padding-left: 60%;
+    
+}   
+nav a {
+    position: static;
+    align-content: center;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+  
+ nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ nav a.active {
+    background-color: black;
+    color: white;
+  }
+
+ .uvod
+  {
+    
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    width: 50%;
+  }
+  #slika1
+  {
+    width: 350px;
+    height: 150px;
+    float: right;
+  }
+  #slika2
+  {
+    width: 250px;
+    height: 250px;
+    float: left;
+  }
+  .radovi
+  {
+    
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    width: 50%;
+    
+  }
+ 
+  .kontakt
+  {
+    
+    font-size: 30px;
+    text-align: left;
+    float: left;
+    width: 40%;
+
+    
+  }
+  
+  #slika3
+  {
+    width: 400px;
+    height: 250px;
+    float: right;
+  }
+ 
+  
+  footer
+  {
+    
+    background-color: black;
+    height: 40%;
+    color: aliceblue;
+    font-size: 25px;
+    width: 100%;
+    float: right;
+  }
+ 
+ 
