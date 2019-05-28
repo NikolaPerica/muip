@@ -12,18 +12,18 @@
     Korisničko ime:
     <br/>
     <input type="text" name="korisnickoIme" placeholder="Upisite korisničko ime"  id="uname" onkeyup="kime(uname)"  required/>
-    <b id='ime'></b>
+    <span id='ime'></span>
     <br/><br/>E mail:
     <br/>
     <input type="email" name="email" placeholder="Upišite email" id="mail" onkeyup="mailer(mail)" required/>
-    <b id='posta'></b>
+    <span id='posta'></span>
     <br/><br/>Datum rodenja:
     <br/>
     <input type="date" name="datumRod" placeholder="Unesite datum rodenja" required/>
     <br/><br/>Adresa:
     <br/>
     <input type="text" name="adresa" placeholder="Unesite adresu" id="addr" onkeyup="address(addr)" required/>
-    <b id='addresa'></b>
+    <span id='addresa'></span>
     <br/><br/>Postanski broj:
     <br/>
     <input type="text" name="postanskibr" placeholder="Upišite postanski broj" id="postbr" onkeyup="brojevi(postbr)" required/>
@@ -101,7 +101,7 @@
     <input type="checkbox" name="uvjeti" value="licence" required/>I agree to the Terms and Conditions
 
     <br/><br/>
-    <input type="submit" value="Registracija"/>
+    <input type="submit" value="Registracija" onclick="ispis()"/>
     &nbsp;&nbsp;
     <button type="reset" >Izbriši</button>
 </body>
