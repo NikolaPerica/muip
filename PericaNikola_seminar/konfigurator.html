@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Mrezne usluge i programiranje seminar">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Nikola Perica">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+ <script src="script.js"></script>
+<h1>Dobrodosli na najbolji konfigurator racunala</h1>
+<br><br><br>
+<div id="izbornik">
+    <form>
+           
+        <h2> Budzet</h2><br>
+        <div id="budzet">
+                <input type="radio" name="lova" value="3000" checked> 3000kn
+                <input type="radio" name="lova" value="5500"> 5500kn
+                <input type="radio" name="lova" value="7000"> 7000kn
+                <input type="radio" name="lova" value="10000"> 10000kn
+            
+        </div>
+        <br><br><br>
+        <h2>Koji procesor preferirate:</h2><br>
+        <div id="procesori">
+            <span id="intel"> 
+                <img src="./images/intel.jpg" alt="intel" width="450" height=270>
+                <br>
+                
+                <input type="radio" name="procesor" value="Intel" checked> Intel<br>
+            </span>
+            <span id="amd"> 
+                <img src="./images/amd.jpg" alt="amd" width="450" height=270>
+                <br>
+                
+                <input type="radio" name="procesor" value="AMD"> AMD<br>
+        </span>
+        </div>
+        <br><br><br>
+        <h2>Koju grafiku preferirate:</h2><br>
+        <div id="grafika">
+                <span id="intel"> 
+                    <img src="./images/nvidia.jpg" alt="nvidia" width="450" height=270>
+                    <br>
+                    
+                    <input type="radio" name="grafa" value="nvidia" checked> Nvidia<br>
+                </span>
+                <span id="amd"> 
+                    <img src="./images/radeon.png" alt="ati" width="450" height=270>
+                    <br>
+                    
+                    <input type="radio" name="grafa" value="ati"> ATI<br>
+            </span>
+        </div>
+        
+        <br><br><br>
+        <h2>Kuciste:</h2><br>
+        <div id="kutija">
+                <input type="radio" name="kuciste" value="neprozirno" checked> Neprozirno
+                <input type="radio" name="kuciste" value="prozirno"> Prozirno
+                
+            
+        </div>
+        
+    </form> 
+    <br><br>
+    <button onclick="ispis()">Ispis</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body
+{
+    background-image: url(./images/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+span
+{
+    display: inline-block;
+    text-align: center;
+}
+
+div
+{
+    font-size: 20px;
+}
+
+#izbornik, #upute
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.45);
+    border-radius: 1%;
+}
+
+#imePrint, #prezimePrint
+{
+    font-size: 30px;
+}
+button
+{
+    font-size: 46px;
+    border-radius: 5%;
+}
